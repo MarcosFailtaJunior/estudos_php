@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+* {
+    background-color: antiquewhite;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 10px;
+    
+}
+
+form{
+    text-align: center;
+}
+
+#box_nome {
+    background-color: rgb(183, 215, 215);
+    
+}
+
+.username {
+    display:flex;
+}
+
+#box_sobrenome {
+    background-color: rgb(189, 189, 246);
+    
+}
+
+.sobrenome {
+    display: flex;
+}
+
+#buttonEnviar {
+    margin: 10px;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}

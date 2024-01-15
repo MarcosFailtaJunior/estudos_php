@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 769px) {
+    #itens {
+        display: inline-block;
+    }
+    #imenu {
+        display: none;
+    }
+    
+    body {
+        background-image: linear-gradient(to right, #ffe4c4, rgb(172, 165, 159));
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+        
+    }
+
+    #menu {
+        position: fixed;
+        padding-bottom: 10px;
+        
+    }
+    
+    h2 {
+        padding-top: 35px;
+    }
+}

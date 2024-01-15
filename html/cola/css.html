@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cola - CSS</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <script src="javascript/menu.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <span id="imenu" class="material-symbols-outlined" onclick="clickMenu()">menu
+            </span>
+            <menu id="itens">
+                <ul id="menu">
+                    <li><a href="./html.html">HTML</a><br></li>
+                    <li><a href="css.html">CSS</a></li>
+                    <li><a href="atalhosVSCode.html">Atalhos</a></li>
+                    <li><a href="links.html">Links Úteis</a></li>
+                </ul>
+            </menu>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>CSS Commands</h2><br>
+            <p>
+            <b>font-weight:</b> (lighter, normal, bold, bolder) <br>
+            <b>shorthand font:</b> font-style; font-weight; font-size; font-family<br>
+            <br>
+            # => id <br>
+            . => class  <br>
+            : => pseudo-class <br>
+            :: => pseudo-element <br>
+            > => chldren <br>
+            <br>:root {
+                <br>--nome_variavel<br> } <br>
+            <br><small>para usar a variavel:</small> <br>
+            <br>color: var(--nome_variavel);<br>
+
+            </p>
+        </section>
+    </main>
+
+</body>
+</html>

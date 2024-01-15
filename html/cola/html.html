@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cola - HTML</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <script src="javascript/menu.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <span id="imenu" class="material-symbols-outlined" onclick="clickMenu()">menu
+            </span>
+                <menu id="itens">
+                    <ul id="menu">
+                        <li><a href="./html.html">HTML</a><br></li>
+                        <li><a href="css.html">CSS</a></li>
+                        <li><a href="atalhosVSCode.html">Atalhos</a></li>
+                        <li><a href="links.html">Links Úteis</a></li>
+                    </ul>
+                </menu>
+        </nav>
+    </header>
+    <main>
+        
+        <section>
+            <h2>HTML Tags</h2>  <br>
+            <p>
+                <!--     <b></b> <br>     -->
+                <b>address:</b> endereço. <address>exemplo, xxx, exemplo</address><br>
+                <b>mark:</b> marcador de texto (mark style= para definir outra cor ). <mark>teste</mark> <br>
+                <b>small:</b> para texto pequeno. <small>teste</small> <br>
+                <b>del:</b> texto deletado. <del>exemplo</del><br>
+                <b>div:</b> <br>
+                <b>span:</b> <br>
+                <b>ins:</b> texto inserido. <ins>exemplo</ins><br>
+                <b>sup:</b> texto elevado. <sup>exemplo</sup><br>
+                <b>sub:</b> texto inferior. <sub>teste</sub> <br>
+                <b>code:</b> fonte monoespaçada. <code>exemplo itg</code><br>
+                <b>pre:</b> considera tabulações, quebras de linha, etc. Obs: colocar code dentro de pre.<br>
+                <b>q:</b> quote (aspas para citação)<br>
+                <b>blockquote:</b> citações completas. blockquote cite=url<br>
+                <b>fieldset:</b> grupo de campos de formulário(indicado agrupar por  tipo de dados)<br>
+                <b>abbr:</b> dar significado a uma sigla. <abbr title="HyperText Markup Language">HTML</abbr><br>
+                <b>ol:</b> lista ordenada (ol type= seleção de algumas opções... start(parametro numerico) parametro start define o primeiro indice)<br>
+                <b>li:</b> cada elemento dentro de uma lista é um li (o fechamento da tag li é opcional)<br>
+                <b>ul:</b> lista não ordenada, todos os elementos são li (type)<br> Tipos de marcadores de listas:
+                    <ul>
+                    <li>circle
+                    <li>disc
+                    <li>square
+                    </ul>
+            
+                <b>a:</b> link em texto. Parametros adicionais:
+                <ul class = tabelasSec type ="disc">
+                    <li>target="_blank" para abrir em uma nova janela
+                    <li>rel="externar" p/ indicar que é externo
+                    <li>Para rel interno
+                        <ul type="square">
+                            <li>prev
+                            <li>next
+                            <li>self
+                        </ul>
+                    <li>para sites de terceiros(nofollow, )<br><br>
+                </ul>
+                <br>
+                <picture>
+                    <img id = img1 src="midias/box_model_example.png" alt="Box Model Example">
+                </picture>
+            </p>
+        </section>
+
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+* {
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    margin: auto;
+    
+}
+
+body {
+    background-color: rgba(65, 97, 156, 0.566);
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    
+}
+
+#tabela1 {
+    display: relative ;
+    float: left;
+    background-color: rgba(81, 81, 81, 0.517);
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 170px;
+    padding-top: 0;
+    margin-top: 0;
+
+}
+
+#tabela1 a{
+    color: aquamarine;
+}
+
+#tabela1 :hover{
+    background-color: rgba(43, 43, 43, 0.318);
+}
+
+#tabela1 li {
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 10px;
+}
+
+#tabela_links{
+
+    padding : 0px 5px 10px 20px;
+    
+}
+
+#logo {
+
+    display: inline-block;
+    min-height: 40px;
+    max-height: 90px;
+    min-width: 60px;
+    max-width: 130px;
+    /*width: 50px;
+    width: 30%;*/
+    margin: 5px auto;
+    position: absolute;
+
+}
