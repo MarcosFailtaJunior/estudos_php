@@ -15,11 +15,11 @@
             $numero_inserido = $_GET["numero_user"];
 
             echo "<p>o número inserido foi $numero_inserido</p>";
-            echo "<p>o seu antecessor é ", ($numero_inserido-1);
-            echo "<p> seu sucessor é ",($numero_inserido+1);
+            echo "<p>o seu antecessor é ". ($numero_inserido-1);
+            echo "<p> seu sucessor é ".($numero_inserido+1);
         ?>
 
-        
+    <p><button onclick="javascript:history.go(-1)">Voltar</button></p>
 
     </main>
 
